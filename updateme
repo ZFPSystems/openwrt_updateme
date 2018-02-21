@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# update list of packages:
+echo "[Update Package List]"
+opkg update
+echo "[done]"
+echo ""
+
+# get list of installed packages:
+echo "[Generate Installed Packages List]"
+pkg_list="`opkg list-installed | awk '{print $1}' | sed ':M;N;$!bM;s#\n# #g'`"
+echo "[done]"
+echo ""
+
+# try to upgrade each of them:
+echo "[Starting checking for upgrades]"
+echo "Please wait this could take a while..."
+for i in $pkg_list; do
+    opkg upgrade $i;
+done;
+echo "[done]"
+echo ""
+
+exit 0
+
