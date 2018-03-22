@@ -1,4 +1,7 @@
 #!/bin/sh
+# Update OpenWRT Packages without hassle.
+# Author: Paolo Fabio Zaino
+# License: GPL v2
 
 # update list of packages:
 echo "[Update Package List]"

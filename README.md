@@ -1,6 +1,9 @@
 # OpenWRT updateme
 Very simple script to update intalled packages on OpenWRT OS without hassle.
 
+Author: Paolo Fabio Zaino
+License: GPL v2
+
 This script will detect all installed packages on your OpenWRT installation and will attempt to update them with the latest version (if any) in OPKG repository for your device.
 
 NOTE: Before using this script make sure you have correctly configured and installed OpenWRT on your device and that opkg can reach the correct repository!
