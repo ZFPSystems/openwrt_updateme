@@ -2,7 +2,7 @@
 Very simple script to update intalled packages on OpenWRT OS without hassle.
 
 Author: Paolo Fabio Zaino
-License: GPL v2
+License: GPL v3
 
 This script will detect all installed packages on your OpenWRT installation and will attempt to update them with the latest version (if any) in OPKG repository for your device.
 
