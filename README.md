@@ -1,3 +1,12 @@
+# Please DO NOT use this script!
+This script is for my personal use/testing and, even if it works fine with OpenWRT/LEDE you need to know that at the moment OpenWRT/LEDE do NOT support a proper update process due to weird dependencies between packages and kernel release.
+
+Now I know this will sound crazy to you, because the OpenWRT is actually releasing updates! But the only way you have to update OpenWRT is to re-flash your router using a consisted and tested image. 
+
+Most likely this issue is being caused by a lack of proper update testing process in the OpenWRT community. So if you use the script in this repo without knowing what you're doing you'll most likely break your router, so, again, do not use this script please.
+
+You have been warned :)
+
 # OpenWRT updateme
 Very simple script to update intalled packages on OpenWRT OS without hassle.
 
